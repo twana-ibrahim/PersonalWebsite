@@ -8,6 +8,7 @@ for (var i = 0; i < items.length; i++) {
   });
 }
 
+
 // var coll = document.getElementsByClassName("collapsible");
 // var i;
 
