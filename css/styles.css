@@ -1,0 +1,195 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    display: grid;
+    /* grid-template-columns: 30% 70%; */
+    font-family: "Quicksand", sans-serif;
+}
+
+
+/* left side  */
+.leftSide{
+    padding: 4rem 0;
+    background-color: #eee;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    position: fixed;
+    width: 30%;
+}
+
+
+/* profile  */
+#profile{
+    font-family: "Playfair Display", sans-serif;
+}
+
+.profile-picture{
+    width: 40%;
+    border-radius: 100%;
+}
+
+.jobs{
+    padding: 0;
+    margin: 0 0 4rem;
+}
+
+/* navigation bar  */
+.navigationBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 1.8rem;
+}
+
+.navigationBar ul li{
+    padding: 0.5rem;
+    position: relative;
+}
+
+.navigationBar ul li a{
+    text-decoration: none;
+    color: #444;
+    text-transform: uppercase;
+}
+
+ul li a.links:hover{
+    border-bottom: 1px solid #2c98f0;
+    transition: ease-in-out;
+}
+
+.navigationBar .active{
+    color: #2c98f0;
+    font-weight: 500;
+    border-bottom: 1px solid #2c98f0;
+}
+
+/* copyright  */
+.copyRight{
+    padding: 0 9rem;
+    margin: 8rem 0 0;
+    font-family: "Playfair Display", sans-serif;
+    color: #aaa;
+    font-size: 1.5rem;
+}
+
+/* right side  */
+.rightSide{
+    position: absolute;
+    right: 0;
+    width: 70%;
+}
+
+.text-on-cover{
+    width: 30%;
+    height: 72.5rem;
+    background-color: rgba(200, 200, 200, 0.7);
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+.text-on-cover h2{
+    position: relative;
+    top: 35%;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 2rem;
+}
+
+.text-on-cover span{
+    font-size: 5rem;
+}
+
+.cover-image{
+    width: 100%;
+    z-index: -10;
+}
+
+
+/* skills */
+#skills{
+    margin: 10rem 3rem;
+    padding: 0 20% 2rem 2rem;
+    line-height: 1.5;
+}
+
+#skills h6{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#skills h3{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#skills .skills-text{
+    margin: 10rem 0 5rem;
+}
+
+/* progress */
+
+.skills-progress{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.progress-container{
+    padding-left: 7rem;
+}
+
+.progress-container .progress-bar{
+    width: 100%;
+    margin: 2rem auto;
+}
+
+/* education */
+#education{
+    margin: 10rem 3rem;
+    padding: 0 20% 2rem 2rem;
+    line-height: 1.5;
+}
+
+#education h6{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#education h3{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+.education-active .collapsible:hover {
+    background-color: #555;
+}
+  
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  } */
+
+  
