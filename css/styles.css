@@ -288,6 +288,11 @@ ul li a.links:hover{
     vertical-align: middle;
 }
 
+.contact-info-text a{
+    color: #000;
+    text-decoration: none;
+}
+
 
 /* contact form  */
 .contact-form{
