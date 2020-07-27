@@ -10,28 +10,19 @@ for (var i = 0; i < items.length; i++) {
   });
 }
 
+var burger = document.querySelector("#burger");
+var closeBtn = document.querySelector("#close");
+var leftSide = document.querySelector("#left-side");
+var rightSide = document.querySelector("#right-side");
 
+burger.addEventListener("click", function(){
+  leftSide.classList.remove("leftSide-hide");
+  rightSide.classList.add("hide");
+  closeBtn.classList.remove("hide");
+});
 
-
-
-
-// change navbar by scroll 
-// var divs = document.querySelectorAll(".rightSide");
-
-// var x = document.getElementsByClassName("rightSide")[0];
-
-// var divId = divs.id;
-
-// for(var i = 0; i < x.children.length; i++){
-//   var divsId = x.children[i].id;
-//   if(window.scrollX >= divsId[i]){
-//     var current = document.getElementsByClassName("active");
-//     current[0].className = current[0].className.replace(" active", "");
-//     items.className += " active";
-//   }
-// }
-
-
-// if(window.scrollY >= divId = document.getElementById("skills"));{
-  // console.log(x.children[0].offset());
-// }
+closeBtn.addEventListener("click", function(){
+  rightSide.classList.remove("hide");
+  leftSide.classList.add("leftSide-hide");
+  burger.classList.remove("hide");
+});
