@@ -18,11 +18,12 @@ var rightSide = document.querySelector("#right-side");
 burger.addEventListener("click", function(){
   leftSide.classList.remove("leftSide-hide");
   rightSide.classList.add("hide");
-  closeBtn.classList.remove("hide");
+  closeBtn.classList.remove("close-hide");
 });
 
 closeBtn.addEventListener("click", function(){
   rightSide.classList.remove("hide");
   leftSide.classList.add("leftSide-hide");
   burger.classList.remove("hide");
+  closeBtn.classList.add("close-hide");
 });
