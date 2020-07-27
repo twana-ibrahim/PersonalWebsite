@@ -24,6 +24,5 @@ burger.addEventListener("click", function(){
 closeBtn.addEventListener("click", function(){
   rightSide.classList.remove("hide");
   leftSide.classList.add("leftSide-hide");
-  burger.classList.remove("hide");
   closeBtn.classList.add("close-hide");
 });
