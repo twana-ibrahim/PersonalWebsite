@@ -457,6 +457,11 @@ ul li a.links:hover{
     #skills{
         padding: 10rem 10% 13rem 5rem;
     }
+
+    .skills-progress{
+        grid-template-columns: 100%;
+
+    }
     
     #skills .skills-text{
         padding: 5rem 3rem;
@@ -505,3 +510,74 @@ ul li a.links:hover{
     }
 }
 
+@media (max-width: 600px){
+    h2{
+        font-size: 2rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+
+    h6{
+        font-size: 1rem;
+    }
+    
+    .copyRight{
+        margin: 7rem 0;
+        font-size: 1.75rem;
+    }
+
+    .text-on-cover span{
+        font-size: 4rem;
+    }
+
+    #skills{
+        padding: 10rem 5% 13rem 5rem;
+    }
+
+    #education{
+        padding: 10rem 5% 13rem 5rem;
+    }
+   
+    #experience{
+        padding: 10rem 5% 13rem 5rem;
+    }    
+    
+    #contact{
+        padding: 10rem 5% 13rem 5rem;
+    }
+    
+    .contact-containers{
+        grid-template-columns: 100%;
+    }
+    
+    .contact-form input, .contact-form textarea{
+        padding: 2rem 12rem 1rem 1rem;
+    }
+    
+    .contact-form textarea{
+        padding: 2rem 3rem 1rem 1rem;
+    }
+    
+    #skills .skills-text{
+        padding: 4rem 2rem 3rem;
+    }
+    
+    /* progress */
+    
+    .skills-progress{
+        grid-template-columns: 100%;
+
+    }
+
+    .progress-container{
+        padding-left: 4rem;
+    }
+    
+    .progress-container .progress-bar{
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+}
