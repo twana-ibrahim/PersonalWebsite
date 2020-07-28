@@ -650,22 +650,24 @@ ul li a.links:hover{
         padding: 10rem 3% 8rem 5rem;
     }
 
+    
     .contact-info-text{
         font-size: 1.35rem;
+        margin-left: 2rem;
     }
 
     .contact-info-icon{
         font-size: 2rem;
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
     }
     
     .contact-form input, .contact-form textarea{
-        padding: 2rem 9rem 1rem 1rem;
+        padding: 2rem 8rem 1rem 1rem;
         font-size: 1.35rem;
     }
     
     .contact-form textarea{
-        padding: 2rem 2rem 1rem 1rem;
+        padding: 2rem 1rem 1rem 1rem;
     }
 }
