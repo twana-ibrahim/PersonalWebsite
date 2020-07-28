@@ -581,3 +581,91 @@ ul li a.links:hover{
     }
 
 }
+
+@media (max-width: 470px){
+    h2{
+        font-size: 1.8rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+
+    h6{
+        font-size: 1rem;
+    }
+
+    .profile-picture{
+        width: 25%;
+        border-radius: 100%;
+    }
+    
+    .navigationBar ul{
+        font-size: 2.25rem;
+    }
+
+    .copyRight{
+        font-size: 1.35rem;
+    }
+
+    .text-on-cover h3:first-child{
+        padding-top: 50%;
+        /* top: 35%; */
+    }
+    
+    .text-on-cover span{
+        font-size: 2.75rem;
+    }
+
+    #skills{
+        padding: 10rem 3% 8rem 5rem;
+    }
+
+    #education{
+        padding: 10rem 3% 8rem 5rem;
+    }
+  
+    #experience{
+        padding: 10rem 3% 8rem 5rem;
+    }  
+    
+    .experience-article{
+        margin: 5rem 1rem 0;
+    }
+    
+    .experience-icon{
+        font-size: 2rem;
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .experience-text-container{
+        margin-left: 7rem;
+        background-color: #f2f3f7;
+        padding: 1rem 2rem 4rem;
+    }
+    
+    /* contact */
+    #contact{
+        padding: 10rem 3% 8rem 5rem;
+    }
+
+    .contact-info-text{
+        font-size: 1.35rem;
+    }
+
+    .contact-info-icon{
+        font-size: 2rem;
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .contact-form input, .contact-form textarea{
+        padding: 2rem 9rem 1rem 1rem;
+        font-size: 1.35rem;
+    }
+    
+    .contact-form textarea{
+        padding: 2rem 2rem 1rem 1rem;
+    }
+}
