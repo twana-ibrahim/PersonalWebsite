@@ -618,15 +618,15 @@ ul li a.links:hover{
     }
 
     #skills{
-        padding: 10rem 3% 8rem 5rem;
+        padding: 10rem 3% 8rem 3rem;
     }
 
     #education{
-        padding: 10rem 3% 8rem 5rem;
+        padding: 10rem 3% 8rem 3rem;
     }
   
     #experience{
-        padding: 10rem 3% 8rem 5rem;
+        padding: 10rem 3% 8rem 3rem;
     }  
     
     .experience-article{
@@ -647,9 +647,8 @@ ul li a.links:hover{
     
     /* contact */
     #contact{
-        padding: 10rem 3% 8rem 5rem;
+        padding: 10rem 3% 8rem 3rem;
     }
-
     
     .contact-info-text{
         font-size: 1.35rem;
@@ -657,9 +656,9 @@ ul li a.links:hover{
     }
 
     .contact-info-icon{
-        font-size: 2rem;
-        width: 3rem;
-        height: 3rem;
+        font-size: 1.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
     
     .contact-form input, .contact-form textarea{
